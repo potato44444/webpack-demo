@@ -1,0 +1,19 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "devDependencies": {
+    "file-loader": "^6.0.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "css-loader": "^4.2.1",
+    "lodash": "^4.17.20",
+    "style-loader": "^1.2.1"
+  },
+  "scripts": {
+    "build": "webpack --config script/webpack.prod.js"
+  }
+}
